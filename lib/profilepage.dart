@@ -5,6 +5,22 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Profile page', style: TextStyle(
+          fontSize: 25,
+          fontWeight: FontWeight.bold,
+          color: Colors.brown,
+        )),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          child: Text(''),
+          onPressed: () {
+            Navigator.pushNamed(context, '/settings');
+          },
+        ),
+      ),
+    );
   }
 }
