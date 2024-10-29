@@ -1,5 +1,7 @@
-# _Routes_
-## _Routes in Flutter_
+# Routes
+ Routes in Flutter -
+#
+- This simple project uses routes to navigate between different screens.
 
-This project uses routes to navigate between different pages.
+
 
