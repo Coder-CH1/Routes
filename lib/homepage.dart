@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.grey,
         title: const Text('Home page', style: TextStyle(
           fontSize: 25,
-          fontWeight: FontWeight.bold,
+          fontWeight: FontWeight.w900,
           color: Colors.white,
         )),
       ),
